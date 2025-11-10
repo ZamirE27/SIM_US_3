@@ -1,0 +1,15 @@
+bin/
+obj/
+
+.env
+SIM_US_3.Api/appsettings.json
+
+.vs/
+.vscode/
+.idea/
+*.user
+
+*.log
+
+Thumbs.db
+.DS_Store
