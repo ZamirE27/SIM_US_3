@@ -9,13 +9,13 @@ public class AppDbContext : DbContext
     {
     }
     
-    DbSet<User>  Users => Set<User>();
-    DbSet<Role> Roles => Set<Role>();
-    DbSet<DocType> DocTypes => Set<DocType>();
-    DbSet<Category> Categories => Set<Category>();
-    DbSet<UserProfile> UserProfiles => Set<UserProfile>();
-    DbSet<Product> Products => Set<Product>();
-    DbSet<Purchase> Purchases => Set<Purchase>();
-    DbSet<PurchaseDetail> PurchaseDetails => Set<PurchaseDetail>();
-    DbSet<PurchaseStatus> PurchaseStatuses => Set<PurchaseStatus>();
+    public DbSet<User>  Users => Set<User>();
+    public DbSet<Role> Roles => Set<Role>();
+    public DbSet<DocType> DocTypes => Set<DocType>();
+    public DbSet<Category> Categories => Set<Category>();
+    public DbSet<UserProfile> UserProfiles => Set<UserProfile>();
+    public DbSet<Product> Products => Set<Product>();
+    public DbSet<Purchase> Purchases => Set<Purchase>();
+    public DbSet<PurchaseDetail> PurchaseDetails => Set<PurchaseDetail>();
+    public DbSet<PurchaseStatus> PurchaseStatuses => Set<PurchaseStatus>();
 }
