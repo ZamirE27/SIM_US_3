@@ -24,7 +24,7 @@ public class PurchaseRepository : Repository<Purchase>, IPurchaseRepository
     {
         return await _dbset
             .AsNoTracking()
-            .Include(p => p.User)
+            .Include(p => p.UserId)
             .Where(p => p.StatusId == statusId)
             .ToListAsync();
     }
