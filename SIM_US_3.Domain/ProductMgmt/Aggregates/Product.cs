@@ -1,6 +1,6 @@
 using SIM_US_3.Domain.ValueObjects;
 
-namespace SIM_US_3.Domain.Models;
+namespace SIM_US_3.Domain.ProductMgmt.Aggregates;
 
 public class Product
 {

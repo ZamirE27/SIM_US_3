@@ -1,6 +1,7 @@
-using SIM_US_3.Domain.Interfaces;
+using SIM_US_3.Domain.Common;
+using SIM_US_3.Domain.UserMgmt.Entities;
 
-namespace SIM_US_3.Domain.Models.Interfaces;
+namespace SIM_US_3.Domain.UserMgmt.Interfaces;
 
 public interface IDocTypeRepository : IRepository<DocType>
 {

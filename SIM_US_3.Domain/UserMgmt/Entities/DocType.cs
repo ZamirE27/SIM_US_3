@@ -1,4 +1,6 @@
-namespace SIM_US_3.Domain.Models;
+using SIM_US_3.Domain.UserMgmt.Aggregates;
+
+namespace SIM_US_3.Domain.UserMgmt.Entities;
 
 public class DocType
 {

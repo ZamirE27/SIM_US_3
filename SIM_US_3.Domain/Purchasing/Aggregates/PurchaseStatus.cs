@@ -1,4 +1,4 @@
-namespace SIM_US_3.Domain.Models;
+namespace SIM_US_3.Domain.Purchasing.Aggregates;
 
 public class PurchaseStatus
 {

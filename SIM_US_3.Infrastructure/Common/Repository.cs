@@ -1,5 +1,5 @@
 using Microsoft.EntityFrameworkCore;
-using SIM_US_3.Domain.Interfaces;
+using SIM_US_3.Domain.Common;
 using SIM_US_3.Domain.Models.Interfaces;
 using SIM_US_3.Infrastructure.Data;
 

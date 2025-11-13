@@ -1,4 +1,6 @@
-namespace SIM_US_3.Domain.Models;
+using SIM_US_3.Domain.Models;
+
+namespace SIM_US_3.Domain.ProductMgmt.Aggregates;
 
 public class Category
 {

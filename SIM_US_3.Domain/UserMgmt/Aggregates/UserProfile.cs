@@ -1,4 +1,7 @@
-namespace SIM_US_3.Domain.Models;
+using SIM_US_3.Domain.Models;
+using SIM_US_3.Domain.UserMgmt.Entities;
+
+namespace SIM_US_3.Domain.UserMgmt.Aggregates;
 
 public class UserProfile
 {

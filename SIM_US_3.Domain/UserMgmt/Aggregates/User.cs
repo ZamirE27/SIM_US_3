@@ -1,3 +1,5 @@
+using SIM_US_3.Domain.UserMgmt.Entities;
+
 namespace SIM_US_3.Domain.Models;
 
 public class User

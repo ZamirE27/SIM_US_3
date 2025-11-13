@@ -1,6 +1,6 @@
 using SIM_US_3.Domain.ValueObjects;
 
-namespace SIM_US_3.Domain.Models;
+namespace SIM_US_3.Domain.Purchasing.Aggregates;
 
 public class CartItem 
 {

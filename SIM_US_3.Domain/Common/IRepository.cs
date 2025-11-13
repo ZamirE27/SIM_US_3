@@ -1,4 +1,4 @@
-namespace SIM_US_3.Domain.Interfaces;
+namespace SIM_US_3.Domain.Common;
 
 public interface IRepository<T> where T : class
 {

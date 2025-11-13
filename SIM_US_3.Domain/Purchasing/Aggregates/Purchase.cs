@@ -1,11 +1,13 @@
+using SIM_US_3.Domain.Models;
 using SIM_US_3.Domain.ValueObjects;
 
-namespace SIM_US_3.Domain.Models;
+namespace SIM_US_3.Domain.Purchasing.Aggregates;
 
 public class Purchase
 {
     public int Id { get; private  set; }
     public int UserId { get; private  set; }
+    public User? User { get; private  set; }
     public DateTime Date { get; private  set; }
 
     public int StatusId { get; private  set; }

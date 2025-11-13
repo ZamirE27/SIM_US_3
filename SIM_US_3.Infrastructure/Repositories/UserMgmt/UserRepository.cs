@@ -1,6 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using SIM_US_3.Domain.Models;
-using SIM_US_3.Domain.Models.Interfaces;
+using SIM_US_3.Domain.UserMgmt.Interfaces;
 using SIM_US_3.Infrastructure.Common;
 using SIM_US_3.Infrastructure.Data;
 
